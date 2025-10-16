@@ -66,24 +66,28 @@ FORMAT: Three bullet points for a slide presentation
 
 **REMINDER:** You are an expert writing assistant. Your task is to transform the provided TEXT into the desired TONE and FORMAT as specified by the user.
 
-## Input
+## Input 1
 TEXT  : "Per our last meeting, the Q3 financial projections have been finalized. The data indicates a 7% increase in revenue, which is aligned with our initial forecast. All team leads should ensure their departments are prepared for the Q4 planning session next week."
 TONE : "Positive and Exciting"
-FORMAT : "Email"
+FORMAT : " An exciting paragraph for a company-wide email."
 
 ## Model
 gpt-4.1-mini
 
 ## Output
-Subject: Exciting Q3 Financial Update and Q4 Planning Preparation
+Great news from our recent meeting—Q3 financial projections are finalized, showing an exciting 7% boost in revenue that perfectly matches our optimistic forecast! This achievement reflects our collective hard work and momentum. Now, as we gear up for next week’s Q4 planning session, all team leads are encouraged to get their departments ready to build on this success and drive even greater results together!
 
-Hi Team,
 
-Great news! Following our last meeting, the Q3 financial projections are finalized, showing a fantastic 7% revenue increase—right on target with our initial forecast. This is a strong testament to everyone's hard work and dedication!
+## Input 2
+TEXT  : "Per our last meeting, the Q3 financial projections have been finalized. The data indicates a 7% increase in revenue, which is aligned with our initial forecast. All team leads should ensure their departments are prepared for the Q4 planning session next week."
+TONE : "Positive and Exciting"
+FORMAT : " An urgent set of bullet points for a presentation."
 
-As we look ahead, please make sure your departments are ready for the upcoming Q4 planning session next week. Let’s keep this momentum going and finish the year strong!
+## Model
+gpt-4.1-mini
 
-Thanks for your continued commitment!
-
-Best,
-[Your Name]
+## Output
+- Great news! Q3 financial projections are finalized with a promising 7% revenue increase!
+- This growth matches our optimistic initial forecast—our strategy is working!
+- Attention all team leads: Get your departments ready for the exciting Q4 planning session next week!
+Let’s keep this momentum going and make Q4 even more successful!
