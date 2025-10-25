@@ -1,18 +1,26 @@
-# prompt-engineering-library
-Principles of prompting
-1. Write clear and specific instructions
-2. Give model time to think
+# Principles of Prompting
 
-1. Write clear and specific instructions
-  First and foremost: clear =! short. long prompts often give better context to the model
-  Tactic 1: Use delimiters lile ```, """, etc
-  Tactic 2: Ask for a structured output like JSON, XML tags etc
-  Tactic 3: Ask the model to see if the conditions are met
-  Tactic 4: Few shot programming
+## 1. Write Clear and Specific Instructions
 
-2. Give model time to think
-   Tactic 1: Specify the steps required to complete a task
-   Tactic 2: Ask the model to comeup with its own solution before answering
+**Key idea:** Clear ≠ short. Longer prompts often provide better context to the model.
 
-Bonus: Reducing hallucainations: Ask to model to first find relevant information and then answer the question based on the relevant information
-   
+### Tactics
+- **Use delimiters** such as `````` ```
+- **Ask for structured output** like JSON, XML tags, or tables.
+- **Ask the model to verify** whether given conditions or constraints are met.
+- **Use few-shot prompting** by showing a few examples of the desired output before asking the main question.
+
+***
+
+## 2. Give the Model Time to Think
+
+### Tactics
+- **Specify the steps** needed to complete a task to encourage reasoning.
+- **Ask the model to generate its own reasoning or plan** before providing the final answer.
+
+***
+
+## Bonus: Reduce Hallucinations
+
+- Instruct the model to **first identify relevant information**.
+- Then ask it to **formulate the answer only based on that verified information**.
